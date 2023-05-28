@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Shadetown: custom sunnies</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./images/logo.png" alt="Shadetown" class="logo" />
+        <p class="byline">home of custom eyewear</p>
+    </header>
+    <main class="main">
+        <div class="product">
+            <!-- Sunglasses description -->
+            <div id="productDetails" class="product-details">
+                <h1><!--Half frames--></h1>
+                <p><!--xxx lenses, xxx frames--></p>
+                <p><!--$300--></p>
+            </div>
+            <!-- Sunglasses main image -->
+            <div id="productImage" class="product-image frame-aviator">
+                <div class="product-image_frame color-charcoal"> </div>
+                <div class="product-image_lenses color-sepia"> </div>
+            </div>
+            <!-- Sunglasses frame styles -->
+            <ul class="product-style flex">
+                <li>
+                    <img src="images/thumb-aviator.png" class="product-thumb selected" data-name="aviator">
+                </li>
+                <li>
+                    <img src="images/thumb-half-frame.png" class="product-thumb" data-name="half-frame">
+                </li>
+                <li>
+                    <img src="images/thumb-round.png" class="product-thumb" data-name="round">
+                </li>
+                <li>
+                    <img src="images/thumb-wayfarer.png" class="product-thumb" data-name="wayfarer">
+                </li>
+            </ul>
+            <!-- Sunglasses swatches (lenses) -->
+            <div class="product-lenses">
+                <h3>lenses</h3>
+                <ul class="product-swatches">
+                    <li><button class="product-color-swatch color-sepia selected" data-color="sepia">Sepia</button></li>
+                    <li><button class="product-color-swatch color-rainbow" data-color="rainbow">Rainbow</button></li>
+                    <li><button class="product-color-swatch color-iridescent"
+                            data-color="iridescent">Iridescent</button></li>
+                </ul>
+            </div>
+            <!-- Sunglasses swatches (frames) -->
+            <div class="product-frames">
+                <h3>frames</h3>
+                <ul class="product-swatches">
+                    <li><button class="product-color-swatch color-charcoal selected"
+                            data-color="charcoal">Charcoal</button></li>
+                    <li><button class="product-color-swatch color-rose" data-color="rose">Rose</button></li>
+                    <li><button class="product-color-swatch color-tan" data-color="tan">Tan</button></li>
+                </ul>
+            </div>
+
+            <div class="product-buy">
+                <button class="primary-btn">Buy now</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <a href="#">Contact us</a>
+            <a href="#">Returns</a>
+            <a href="#">Shipping & delivery</a>
+        </nav>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
